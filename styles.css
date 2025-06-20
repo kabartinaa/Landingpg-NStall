@@ -1,0 +1,257 @@
+.heading{
+    text-align: center;
+}
+
+.title{
+    color:rgb(252, 254, 248);
+    text-align: left;
+    padding: 5px 50px;
+    display: inline-block;
+  margin: 30px 600px auto;
+  background-color:darkgreen;
+  border: 2px solid grey;
+  border-radius: 12px;
+  font-weight: bold;
+  text-align: left;
+  box-shadow: 0 0 10px;
+  text-shadow: 5px;
+}
+
+body{
+    background-color:rgb(130, 0, 139) ;
+    color: aliceblue;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.logo-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-img{
+    width:500px;
+    height: 200px;
+    border:2px solid rgb(252, 254, 248);
+    border-radius: 50px;
+    margin: 50;
+}
+.nav{
+    margin: 10px;
+    display:flex;
+    border: solid;
+    border-radius: 10px 12px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(86, 10, 227);
+    font-weight: bold;
+    font-size: x-large;
+}
+.nav a:hover{
+    background-color:  rgb(163, 98, 224);
+    border-radius: 30px;
+}
+
+.rightbar{
+    text-align: right;
+    margin: 10px;
+    
+}
+
+
+.button{
+    padding:10px;
+    border:none;
+    margin:0;
+    font-weight: bold;
+    background-color: inherit;
+    color: rgb(86, 10, 227);
+    font-size: x-large;
+    font-family: inherit;
+}
+
+
+.dropdown-content{
+    display:none;
+    background-color: burlywood;
+    position: absolute;
+    min-width: 100px;
+    border-radius: 27px;
+
+}
+.dropdown-content a{
+    display: block;
+    padding: 12px;
+    color: black;
+    float: none;
+    border-radius: 30px;
+    
+}
+.dropdown-content a:hover{
+    background-color: rgb(117, 77, 224);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content{
+color: aliceblue;
+}
+
+.head-cont{
+    color: rgb(177, 198, 217);
+    text-shadow: 2px 2px 4px rgb(40, 3, 3);
+    font-weight: bold;
+    font-size: xx-large;
+}
+.para1{
+    font-size: x-large;
+}
+
+.ff-content{
+    font-size: x-large;
+    margin: 10px;
+}
+
+.ff-button{
+    text-align: center;
+}
+
+.img-container {
+    display: none;
+    
+}
+
+.img-container img{
+    width:200px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 20px;
+     box-shadow: 0 0 5px #110606;
+     gap: 20px;
+}
+#dinnerimages{
+    padding: 20px;
+    text-align: center;
+}
+#healthimages{
+    padding: 20px;
+    display: flex;
+    gap: 20px; /* space between images */
+    margin-left: 60px; /* ✅ shifts all images to the right */
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-container img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+#dietimages{
+    padding: 20px;
+    text-align: center;
+}
+
+.time{
+    align-items: center;
+}
+.timings{
+    font-size: x-large;
+    text-align:  center;
+    width: fit-content ;
+    margin: 30px auto;
+    color: rgb(241, 244, 246);
+    border: 2px solid rgb(151, 104, 104);
+    border-radius: 15px;
+    padding: 15px 25px;
+   text-shadow: 2px 2px 4px rgb(1, 0, 0);
+   box-shadow: 0 0 10px #db6e6e;   
+}
+
+.about-head{
+    text-align: center;
+    color:  rgb(177, 198, 217);
+    font-size: xx-large;
+}
+
+#about{
+    font-size: x-large;
+}
+
+.stall-add{
+    font-size: x-large;
+    text-align: center;
+   text-shadow: 2px 2px 4px rgb(1, 0, 0);
+}
+
+.stall-add a{
+    
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.service-box{
+border:3px solid blueviolet;
+border-radius: 25px;
+padding: 30px;
+font-size: x-large;
+}
+.menu-list li:hover{
+    color: rgb(222, 113, 222);
+    cursor: pointer;
+}
+
+.menu-list{
+font-size: x-large;
+}
+#orderfrom{
+    padding:10px;
+    font-size: x-large;
+}
+
+#orderfrom label:hover{
+     color: rgb(222, 113, 222);
+    cursor: pointer;
+}
+
+button{
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: x-large;
+    border: solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(170, 117, 219);
+}
+#ordersummary{
+    font-size: large;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    display: none;
+    border: 2px solid rgb(173, 147, 173);
+    border-radius: 30px;
+}
+
+.viewstall{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
