@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <meta charset="UTF-8">
+
         <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
+       
        <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6XZG_uM0PIcKLAhQRaU98-m5YPtS7eBA&callback=initMap">
 </script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     </head>
     <body>
             <div class ="logo-cont">
@@ -17,7 +21,6 @@
          <header>
         
            <div class="nav">
-                
                     <a href="#startmain">Home</a>
                     <a href="#about">about</a>
                     <div class="dropdown">
@@ -33,12 +36,15 @@
 
                     <div class="rightbar">
                         <a href="#services">Services</a>
+                        <a href = "#signin"> Register Now to Grap the Crisp</a>
                     </div>
+
+                   
             </div>
         </header>
 
         <div id = "startmain" class="content">
-            <h2 class ="head-cont">🍽️ "Late-Night Cravings? Welcome to Night Stall!"</h2>
+            <h2 class ="head-cont"> "Late-Night Cravings? Welcome to Night Stall!"</h2>
             <p class ="para1">At Night Stall, we bring you delicious, hygienic, and soul-satisfying meals that suit every craving, whether it's a late-night snack or a wholesome dinner. Here's what we serve:</p>
           
         </div>
@@ -272,12 +278,148 @@ Why customers love it: Easy to digest, light on the stomach, and doctor-friendly
             <br>
             <div id="map"></div>
         </div>
-
-
-        
          </section>
+<br>
+<div id = "register">
+<section id="signup">
+  <h1 class="about-head">Registration Form</h1>
+  <form id="form-signup" action ="register.php" method="POST">
+    <label for="first-name">First Name</label>
+    <input type="text" placeholder="First-Name"  name="first-name" class="textbox">
+    <br>
+    <br>
+    <label for="last-name">Last Name</label>
+    <input type="text" placeholder="Last-Name"  name="last-name" class="textbox">
+    <br>
+    <br>
+    <label for="email">Email Id</label>
+    <input type="email" placeholder="Email"  name="email" class="textbox">
+    <br>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" placeholder="password"  name="password" class="textbox">
+<br>
+<br>
+ <button name="signUp" id="upbutton">Sign Up</button>
+ <br>
+<h1>----OR----</h1>
+<div class = "social-login">
+  <p>Sign Up With :</p>
+  <div class="social-icons">
+    <a href="https://accounts.google.com/signup" target="_blank"><i class="fab fa-google"></i></a>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+</div>
+<div class="signinif">
+  <p>Already have an account? <a href="#" id="goto-login" >Sign In </a></p>
+  <br>
+  <br>
+</div>
+  </form>
+</section>
+</div>
+
+<br>
+<br>
+<div id = "login">
+<section id="signin">
+
+  <h1 class="about-head" > Login </h1>
+  <form id="form-signin" action="register.php" method="POST">
+   
+    <label for="email">Email Id</label>
+    <input type="email" placeholder="Email"  name="email" class="textbox">
+    <br>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" placeholder="password"  name="password" class="textbox">
+<br>
+<br>
+ <button name="signIn" id="inbutton">Sign In</button>
+ <br>
+<h1>----OR----</h1>
+
+<div class = "social-login">
+  <p>Sign In With :</p>
+  <div class="social-icons">
+    <a href="https://accounts.google.com/signup" target="_blank"><i class="fab fa-google"></i></a>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+</div>
+<div class="signupif">
+  <p>Not Yet Regsitered ? <a href="#" id="goto-signup" >Sign Up </a></p>
+  <br>
+</div>
+  </form>
+</section>
+</div>
 
 
+<!-- SIGN UP FORM -->
+<!-- <div id="register" style="display: none;">
+  <section id="signup">
+    <h1 class="about-head">Registration Form</h1>
+    <form id="form-signup">
+      <label for="first-name">First Name</label>
+      <input type="text" placeholder="First-Name" name="first-name" class="textbox"><br><br>
 
+      <label for="last-name">Last Name</label>
+      <input type="text" placeholder="Last-Name" name="last-name" class="textbox"><br><br>
+
+      <label for="email">Email Id</label>
+      <input type="email" placeholder="Email" name="email" class="textbox"><br><br>
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="password" name="password" class="textbox"><br><br>
+
+      <button id="upbutton">Sign Up</button><br>
+
+      <h1>----OR----</h1>
+      <div class="social-login">
+        <p>Sign Up With :</p>
+        <div class="social-icons">
+          <a href="https://accounts.google.com/signup" target="_blank"><i class="fab fa-google"></i></a>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <div class="signinif">
+        <p>Already have an account? <a href="#" id="goto-login">Sign In</a></p><br><br>
+      </div>
+    </form>
+  </section>
+</div>
+-->
+<!-- SIGN IN FORM -->
+<!-- <div id="login">
+  <section id="signin">
+    <h1 class="about-head">Login</h1>
+    <form id="form-signin">
+      <label for="email">Email Id</label>
+      <input type="email" placeholder="Email" name="email" class="textbox"><br><br>
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="password" name="password" class="textbox"><br><br>
+
+      <button id="inbutton">Sign In</button><br>
+
+      <h1>----OR----</h1>
+      <div class="social-login">
+        <p>Sign In With :</p>
+        <div class="social-icons">
+          <a href="https://accounts.google.com/signup" target="_blank"><i class="fab fa-google"></i></a>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <div class="signupif">
+        <p>Not Yet Registered? <a href="#" id="goto-signup">Sign Up</a></p><br>
+      </div>
+    </form>
+  </section>
+</div>
+ --> 
+
+ <script src="script.js"></script>
     </body>
 </html> 

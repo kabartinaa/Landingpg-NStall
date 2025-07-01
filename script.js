@@ -51,3 +51,24 @@ initMap()
 
 alert("✅ Order placed successfully!");
 }
+
+const signUpForm = document.getElementById("register");
+const signInForm = document.getElementById("login");
+const gotoSignup = document.getElementById("goto-signup");
+const gotoLogin = document.getElementById("goto-login");
+
+gotoSignup.addEventListener('click' , function(e){
+    e.preventDefault();
+    signInForm.style.display="none";
+    signUpForm.style.display="block";
+    
+})
+
+gotoLogin.addEventListener('click' , function(e){
+    e.preventDefault();
+    signInForm.style.display="block";
+    signUpForm.style.display="none";
+})
+
+
+

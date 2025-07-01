@@ -63,9 +63,7 @@ html{
 .rightbar{
     text-align: right;
     margin: 10px;
-    
 }
-
 
 .button{
     padding:10px;
@@ -247,11 +245,86 @@ button:hover{
     width: 100%;
     height: 300px;
     display: none;
-    border: 2px solid rgb(173, 147, 173);
+    border: 2px solid rgb(110, 9, 110);
     border-radius: 30px;
 }
 
 .viewstall{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#register{
+    display: none;
+}
+#signup{
+   
+    text-align: center;
+    border: solid;
+    width: fit-content;
+    margin-left: 800px ;
+    border-radius: 30px;
+     border: 2px solid rgb(10, 10, 10);
+    height: 700px;
+    padding: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25); 
+}
+
+#form{
+    font-size: x-large;
+    color: antiquewhite;
+}
+.textbox{
+    border: 2px solid rgb(17, 13, 14);
+    font-size: large;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(128, 0, 128, 0.5);
+}
+
+#signup:hover{
+    transform: scale(1.03);
+}
+.signinif{
+    font-size: x-large;
+}
+.signinif a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.social-login{
+    text-align: center;
+}
+.social-icons a{
+     border: 2px solid wheat;
+     font-size: x-large;
+     padding: 10px;
+     background-color: tan;
+    border-radius: 10px; 
+    display: inline-block;
+    transition: 0.23s ease;
+    }
+.social-icons a:hover{
+background-color: purple;
+}
+#signin{
+    text-align: center;
+    border: solid;
+    width: fit-content;
+    margin-left: 800px ;
+    border-radius: 30px;
+     border: 2px solid rgb(10, 10, 10);
+    height: 550px;
+    padding: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25); 
+}
+#signin:hover{
+    transform: scale(1.03);
+}
+.signupif{
+    font-size: x-large;
+}
+.signupif a{
+    text-decoration: none;
+    color: blueviolet;
 }
